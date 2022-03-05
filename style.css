@@ -1,0 +1,41 @@
+img {
+  position: absolute;
+  width: 539.22px;
+  height: 447.43px;
+  top: 265px;
+  left: 77px;
+}
+
+h1 {
+  font-family: monospace;
+  font-weight: 70;
+  font-style: bold;
+  font-size: 64px;
+  line-height: 95px;
+  letter-spacing: -3.5%;
+  vertical-align: text-top;
+  text-align: left;
+}
+
+h4 {
+  font-family: monospace;
+  font-weight: 40;
+  font-size: 24px;
+  font-style: regular;
+  line-height: 36px;
+  letter-spacing: -3.5%;
+  text-align: left;
+  vertical-align: top;
+}
+
+.button {
+  position: absolute;
+  display: block;
+  font-family: monospace;
+  font-style: normal;
+  border: 12px;
+  background-color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
