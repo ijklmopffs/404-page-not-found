@@ -1,9 +1,13 @@
+.error_404_image {
+  text-align: center;
+  padding: 40px;
+  -webkit-box-shadow: 0px -1px 12px 7px rgba(255, 255, 255, 1);
+  box-shadow: 0px -1px 12px 7px rgba(223, 228, 234, 1);
+  margin: 50px;
+  border-radius: 2rem;
+}
 img {
-  position: absolute;
-  width: 539.22px;
-  height: 447.43px;
-  top: 265px;
-  left: 77px;
+  width: 400px;
 }
 
 h1 {
@@ -28,8 +32,17 @@ h4 {
   vertical-align: top;
 }
 
-.button {
-  position: absolute;
+.go_home {
+  display: flex;
+  justify-content: center;
+}
+/* Stay away from position absolute as much as possible. It affects
+the position of ther elements on the page. 
+It is also expensive to maintain */
+.return_home {
+  /* I love how you styled the button. 
+  You only needed to add padding to make it box-align: and set a widtrh for it so it doesnt go across the page.  */
+
   display: block;
   font-family: monospace;
   font-style: normal;
@@ -38,4 +51,11 @@ h4 {
   font-size: 14px;
   text-transform: uppercase;
   color: #ffffff;
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+}
+.error_404_info h1,
+h4 {
+  text-align: center;
 }
